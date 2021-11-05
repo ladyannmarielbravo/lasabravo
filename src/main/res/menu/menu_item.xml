@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="always"
+        android:title="more"
+        android:icon="@drawable/ic_baseline_more">
+        <menu>
+            <item
+                android:icon="@drawable/ic_baseline_rate"
+                android:title="Rate"
+                app:showAsAction="never"
+                android:id="@+id/ratee"
+                />
+            <item
+                android:title="About Us"
+                app:showAsAction="never"
+                android:id="@+id/about_us"
+                android:icon="@drawable/ic_baseline_info"/>
+            <item
+                android:title="Logout"
+                app:showAsAction="never"
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_logout"/>
+
+        </menu>
+
+
+
+
+
+    </item>
+
+</menu>

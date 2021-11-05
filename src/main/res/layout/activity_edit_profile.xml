@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.Light"
+    android:background="@drawable/bg"
+    tools:context=".EditProfile">
+
+
+    <Button
+        android:id="@+id/cancell"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="633dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="39dp"
+        android:text="Back to homepage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879" />
+
+
+    <Button
+        android:id="@+id/choose"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="289dp"
+        android:layout_marginBottom="460dp"
+        android:text="Choose Photo" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="108dp"
+        android:layout_height="127dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="293dp"
+        android:layout_marginBottom="530dp" />
+        <TextView
+            android:id="@+id/resultTv"
+            android:layout_width="wrap_content"
+            android:layout_height="347dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="61dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="323dp"
+            android:textColor="#800000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+</RelativeLayout>
